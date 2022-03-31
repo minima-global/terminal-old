@@ -1,0 +1,23 @@
+{
+  "name": "terminal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "dev-server": "webpack-dev-server",
+    "build-zip": "webpack && cd dist && zip -r terminal.zip . && mv terminal.zip ../",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "eliasnemr",
+  "license": "ISC",
+  "dependencies": {
+    "@minima-global/mds-api": "latest"
+  },
+  "devDependencies": {
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  }
+}
