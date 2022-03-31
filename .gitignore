@@ -12,3 +12,6 @@ dist/bundle.js
 
 # npmrc
 .npmrc
+
+# ios
+.DS_Store
